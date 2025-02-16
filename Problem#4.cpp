@@ -1,3 +1,18 @@
+
+/*
+Write a programe to print all perfect number 
+from 1 to N 
+
+input : 
+500
+
+output : 
+6
+28
+496
+
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;
