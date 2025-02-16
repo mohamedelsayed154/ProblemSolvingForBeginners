@@ -1,3 +1,20 @@
+/* 
+write a programe to check if to check 
+the number is perfect or not ? 
+Note : prefer number = sum(all divisors)
+
+28 = 1+ 2 + 3 + 7 + 14
+6 = 1 + 2 + 3
+
+input : 
+28
+12
+
+output : 
+28 is perfect 
+12 is n't perfect
+*/
+
 #include <iostream>
 using namespace std;
 
