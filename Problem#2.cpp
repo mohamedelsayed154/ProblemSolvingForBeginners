@@ -1,3 +1,16 @@
+/* Write a program print all prime numbers form 1 to N 
+
+input : 10
+
+output : 
+1
+2
+3
+5
+7
+
+*/
+
 #include <iostream>
 using namespace std;
 
