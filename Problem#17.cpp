@@ -1,3 +1,23 @@
+/*
+Write a program to guess a 3-letter password (all capital)
+
+input : AAF 
+
+output :
+Trial [1] : AAA
+Trial [2] : AAB 
+Trial [3] : AAC 
+Trial [4] : AAD 
+Trial [5] : AAE 
+Trial [6] : AAF
+
+password is AAF
+Found after 6 Trial(s)
+
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
