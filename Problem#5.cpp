@@ -1,3 +1,18 @@
+/*
+  Write a progrm to read a number and print it in a reversed order
+
+  input : 1234
+
+  output : 
+  4
+  3
+  2
+  1
+  
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
