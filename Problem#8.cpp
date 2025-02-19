@@ -1,3 +1,15 @@
+/*
+Write a program read a digit and a number , then print digit frequency in that number
+
+input : 
+1223222
+2 
+
+ouput :
+Digit 2 Frequency is 5 Time(s)
+
+*/
+	
 #include <iostream>
 using namespace std;
 
