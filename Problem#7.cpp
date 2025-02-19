@@ -1,3 +1,14 @@
+/*
+Write a program to read a number and print it reversed 
+
+input : 
+1234
+
+output :
+Reverse is : 4321
+
+*/
+
 #include <iostream>
 using namespace std;
 
