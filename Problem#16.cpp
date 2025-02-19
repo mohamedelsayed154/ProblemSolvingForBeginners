@@ -1,3 +1,19 @@
+/*
+Write a program ro print all words from AAA to ZZZ
+
+output :
+AAA
+AAB
+AAC
+.
+.
+.
+ZZZ
+
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
