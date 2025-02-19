@@ -1,3 +1,16 @@
+/*
+Write a program read a number , then print all digit frequency in that number 
+
+input : 1223222
+
+output : 
+Digit 1 Frequency is 1 Time(s)
+Digit 2 Frequency is 5 Time(s)
+Digit 3 Frequency is Time (s)
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
