@@ -20,7 +20,7 @@ using namespace std;
 
 int ReadSizeArray();
 int FillArray(int SizeArray , int num[100]);
-void  MaxNumber(int num[100] , int SizeArray);
+void  MinNumber(int num[100] , int SizeArray);
 
 
 int main() {
@@ -28,7 +28,7 @@ int main() {
     int SizeArray = ReadSizeArray();
     int num[100];
     FillArray(SizeArray, num);
-    MaxNumber(num , SizeArray);
+    MinNumber(num , SizeArray);
     
 }
 
@@ -55,11 +55,11 @@ int FillArray(int SizeArray, int num[100]) {
    
 }
 
-void  MaxNumber(int num[100],int SizeArray ) {
-    int max = num[0];
+void  MinNumber(int num[100],int SizeArray ) {
+    int min = num[0];
     for (int i = 1; i < SizeArray; i++) {
-        if (num[i] < max) {
-            max = num[i];
+        if (num[i] < min) {
+            min = num[i];
         }
         else {
             continue;
@@ -67,5 +67,5 @@ void  MaxNumber(int num[100],int SizeArray ) {
 
         
     }
-    cout << "Min Number is : " << max << endl;
+    cout << "Min Number is : " << min << endl;
 }
