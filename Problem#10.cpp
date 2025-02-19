@@ -1,3 +1,17 @@
+/*
+Write a program to read a number and print it in order form left to right
+
+input : 1234
+
+output : 
+1 
+2
+3
+4
+
+*/
+
+
 #include <iostream>
 #include <string>
 using namespace std;
