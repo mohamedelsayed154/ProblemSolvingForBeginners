@@ -1,3 +1,14 @@
+/*
+Write a program to read a number and print the sum of its digits
+
+input : 1234
+
+output : 
+Sum of digits = 10
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
