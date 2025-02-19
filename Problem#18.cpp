@@ -1,3 +1,19 @@
+/*
+Write a program to read a text and encrypt it , decrypt it
+
+input : 
+Mohammed
+
+output :
+
+Text Before Encryption : Mohammed
+Text After Encryption : Oqjcoogf
+Text After Decryption : Mohammed
+
+
+*/
+
+
 #include <iostream>
 #include <string>
 using namespace std;
