@@ -1,3 +1,19 @@
+/*
+Write a program to read a number and print inverted pattern as follows ?
+
+input : 3                 input : 5
+
+output :                  output :
+333                         55555
+22                          4444
+1                           333
+                            22
+			    1
+
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
