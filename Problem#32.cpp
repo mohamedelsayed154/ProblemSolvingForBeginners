@@ -12,12 +12,13 @@ Array 1 elements :
 Array 2 elements after copying array 1 in reversed order :
 85 96 74 15 21 2 19 62 8 64
 
+NOTE : Don't use a reverse for loop
 */
 
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-// Don't use a reverse for loop
+
 int ReadPositiveNumber();
 int FillArray(int arr1[100], int ArraySize);
 void PrintFirstArray(int arr1[100], int ArraySize);
