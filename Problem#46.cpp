@@ -12,6 +12,7 @@ C++ abs Result : 10
 
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int ValidNumber();
@@ -20,7 +21,7 @@ int main() {
 	int num = ValidNumber();
 	
 	cout << "My abs Result : " << num * -1 << endl;
-	cout << "C++ abs Result : " << num * -1 << endl;
+	cout << "C++ abs Result : " << abs(10) << endl;
 }
 
 int ValidNumber() {
@@ -32,4 +33,5 @@ int ValidNumber() {
 	} while (num >= 0);
 	return num;
 }
+
 
