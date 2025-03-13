@@ -21,7 +21,7 @@ int main() {
 	int num = ValidNumber();
 	
 	cout << "My abs Result : " << num * -1 << endl;
-	cout << "C++ abs Result : " << abs(10) << endl;
+	cout << "C++ abs Result : " << abs(num) << endl;
 }
 
 int ValidNumber() {
